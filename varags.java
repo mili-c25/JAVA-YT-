@@ -2,8 +2,13 @@ import java.util.*;
 
 public class varags {
     public static void main(String[] args) {
-        fun(2,8,9,77,86,9,4,7);
+        fun();
     }
+   static void multiple(int a , int b , String...v){
+        System.out.println(a + " "+ b);
+        System.out.println(Arrays.toString(v));
+    }
+    
     static void fun(int ...v) {
         System.out.println(Arrays.toString(v));
     }
