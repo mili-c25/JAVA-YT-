@@ -2,7 +2,8 @@ import java.util.*;
 
 public class varags {
     public static void main(String[] args) {
-        fun();
+        //fun();
+        multiple(20,78,"Soumili","Kunal","Sohini");
     }
    static void multiple(int a , int b , String...v){
         System.out.println(a + " "+ b);
