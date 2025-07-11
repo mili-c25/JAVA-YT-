@@ -1,19 +1,17 @@
-public class max {
+public class min {
     
     public static void main(String[] args) {
-        int [] arr = {12,87,65,12,90,62};
-        System.out.println(max(arr));
-
+        int [] arr = {32,12,34,65,43,12};
+        System.out.println(min(arr));
     }
 
-    static int max(int [] arr) {
+    static int min(int [] arr) {
         int ans = arr[0];
         for (int i = 0; i < arr.length; i++) {
-            if (arr[i] > ans) {
+            if (arr[i] < ans) {
                 ans = arr[i];
             }
         }
-
         return ans;
     }
 }
